@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora Final</title>
+        <meta charset="UTF-8">
+       <link rel="stylesheet" href="calculadora.css">
+        
+    </head>
+        <body>
+            <div class="calculadora">
+
+                <input type="text" class="calculadora-tela" value="0" disabled />
+                
+                <div class="calculadora-chave">
+                  
+                  <button type="button" class="operador" value="+">+</button>
+                  <button type="button" class="operador" value="-">-</button>
+                  <button type="button" class="operador" value="*">&times;</button>
+                  <button type="button" class="operador" value="/">&divide;</button>
+              
+                  <button type="button" value="7">7</button>
+                  <button type="button" value="8">8</button>
+                  <button type="button" value="9">9</button>
+              
+              
+                  <button type="button" value="4">4</button>
+                  <button type="button" value="5">5</button>
+                  <button type="button" value="6">6</button>
+              
+              
+                  <button type="button" value="1">1</button>
+                  <button type="button" value="2">2</button>
+                  <button type="button" value="3">3</button>
+              
+              
+                  <button type="button" value="0">0</button>
+                  <button type="button" class="decimal" value=".">.</button>
+                  <button type="button" class="limpar" value="limpar">AC</button>
+              
+                  <button type="button" class="igual" value="=">=</button>
+              
+                </div>
+              </div>
+        </body>
+    </head>
+    <script type="text/javascript" src="Calculadora JS.js"></script>
+</html>
